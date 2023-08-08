@@ -1,6 +1,8 @@
-# Obsidian 
+# Speech To Text Keyboard Helper
 
-**Note:** This plugin does NOT provide speech to text to Obsiadian.
+**Note:** This plugin does NOT provide speech to text service
 
-## Idea
-As Google Speech to Text does not have e.g. <enter> command (at least on Android phones), so this plugin is to fill the gap and make them available in Obsidian command pallete
+As Google Speech to Text does not handle _new line_ command, this plugin makes available such commands via Obsidian command pallete.
+
+Currently supported commands:
+- start new line
