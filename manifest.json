@@ -5,6 +5,6 @@
 	"minAppVersion": "0.15.0",
 	"description": "As Google Speech to Text Android keyboard does not handle _new line_ command, this plugin makes available such commands via Obsidian command pallete.",
 	"author": "mwoz123",
-	"authorUrl": "https://obsidian.md",
+	"authorUrl": "https://github.com/mwoz123",
 	"isDesktopOnly": false
 }
