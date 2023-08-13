@@ -29,3 +29,10 @@ jobs:
     - run: npm ci
     - run: npm run build     
     - run: npm test --if-present
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: obsidian-plugin-artifacts
+        path: |
+          main.js
+          manifest.json
